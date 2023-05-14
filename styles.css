@@ -1,0 +1,133 @@
+body {
+    background: black;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nft {
+    display: flex;
+    flex-direction: row;
+    align-items: start;  /* Align items to the start */
+    width: auto;
+    margin: 20px;
+    border: 5px solid #0f0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .nft img {
+    width: auto;
+    height: 55vh;
+    object-fit: contain;
+    align-self: center;
+    margin-top: auto;
+    border: 2px solid rgb(136, 0, 255);
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .details {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 10px;
+    align-self: right;
+    text-align: justify, left;
+    display: ruby-text-container;
+    flex-direction: column;
+    width: auto;
+    text-indent: 10%;
+    border: 1px solid rgb(123, 0, 255);
+  }
+  
+  .details h2 {
+    align-self: center;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 40px;  /* Double the size */
+    text-indent: 5px;
+    font-display: unset;
+  }
+  
+  .description {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 3;
+    overflow: auto; /* Add scroll for long descriptions */
+    font-size: medium;
+  }
+  
+  .read-more {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .properties {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 10px;
+     border: solid #0f0;
+  
+  }
+  
+  .property-individual {
+    border: 1px solid rgb(60, 0, 255);
+    background-color: #7700ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    width: 20%;
+    font-variant:initial;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .img-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center the link */
+  }
+  
+  .view-on-opensea {
+    /* remove width: 20% */
+    background: rgb(166, 0, 255);
+    color: black;
+    text-decoration:solid;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center; /* This will center the text in the button */
+    padding: 5px;
+    border: 2px solid #0f0;
+  }
+  .title {
+    border-bottom: 1px solid #7700ff; /* Change #000 to the color of your choice */
+    align-self: start;
+    padding-bottom: 10px; /* Optional: Add some space below the title */
+  }
+  .description-title, .properties-title {
+    border-bottom: solid 2px #7700ff;
+    padding-bottom: 19px;
+    font-variant: small-caps;
+    font-size: xx-large;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  text-indent: 5px;
+
+}
+
+.description-text {
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 1.2em; /* Change this to adjust the size */
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+
+  
